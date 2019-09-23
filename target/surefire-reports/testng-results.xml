@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="109482" started-at="2019-09-23T06:12:45Z" finished-at="2019-09-23T06:14:34Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="109482" started-at="2019-09-23T06:12:45Z" finished-at="2019-09-23T06:14:34Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@1936f0f5]" name="setup" is-config="true" duration-ms="19643" started-at="2019-09-23T06:13:27Z" finished-at="2019-09-23T06:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@1936f0f5]" name="verifyHomePageTitleTest" duration-ms="19" started-at="2019-09-23T06:13:47Z" finished-at="2019-09-23T06:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@1936f0f5]" name="teardown" is-config="true" duration-ms="1983" started-at="2019-09-23T06:13:47Z" finished-at="2019-09-23T06:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="setup" is-config="true" duration-ms="39819" started-at="2019-09-23T06:12:45Z" finished-at="2019-09-23T06:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsLabelTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="verifyContactsLabelTest" duration-ms="384" started-at="2019-09-23T06:13:25Z" finished-at="2019-09-23T06:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLabelTest -->
+        <test-method status="PASS" signature="teamDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="teamDown" is-config="true" duration-ms="1896" started-at="2019-09-23T06:13:25Z" finished-at="2019-09-23T06:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="setup" is-config="true" duration-ms="24343" started-at="2019-09-23T06:14:07Z" finished-at="2019-09-23T06:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="selectContactsTest" duration-ms="314" started-at="2019-09-23T06:14:31Z" finished-at="2019-09-23T06:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContactsTest -->
+        <test-method status="PASS" signature="teamDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6b143ee9]" name="teamDown" is-config="true" duration-ms="3065" started-at="2019-09-23T06:14:31Z" finished-at="2019-09-23T06:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6615435c]" name="setup" is-config="true" duration-ms="15485" started-at="2019-09-23T06:13:49Z" finished-at="2019-09-23T06:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6615435c]" name="loginPageTitleTest" duration-ms="22" started-at="2019-09-23T06:14:04Z" finished-at="2019-09-23T06:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teamDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6615435c]" name="teamDown" is-config="true" duration-ms="2461" started-at="2019-09-23T06:14:04Z" finished-at="2019-09-23T06:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
