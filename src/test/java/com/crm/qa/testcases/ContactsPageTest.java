@@ -51,6 +51,7 @@ public class ContactsPageTest extends TestBase{
 	}
 	@Test(priority=2)
 	public void selectContactsTest() {
+		System.out.println("start selecting contacts");
 		contactsPage.selectContacts("test wel");
 //		contactsPage.selectContacts("big boss");
 		
@@ -66,6 +67,7 @@ public class ContactsPageTest extends TestBase{
 	
 	@Test(priority=3, dataProvider="getCRMTestData")
 	public void clickOnNewContactsTest(String title, String fName, String mName, String sName, String ssuffix, String nName, String clientName) {
+		System.out.println("Start creating contacts");
 		homePage.clickOnNewContactsLink();
 		contactsPage.createNewContact(title, fName, mName, sName, ssuffix, nName, clientName);
 	}
